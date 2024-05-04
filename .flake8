@@ -1,1 +1,8 @@
-
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    *.pyc,
+    venv
+    app/enums
+    .venv
